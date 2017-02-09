@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034B285E79AAC9B22EBAD87B /* Shooter_DDHUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFAB162CF25CF006557FB054 /* Shooter_DDHUD.cpp */; };
+		9A04C68AE445F24D07920080 /* Shooter_DDGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A84D4D7FFA4C01110E8D60B /* Shooter_DDGameMode.cpp */; };
+		A70B35DECAA94D2DC534762A /* Shooter_DDCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15554A7174E07DC81E5A03A3 /* Shooter_DDCharacter.cpp */; };
+		E12E170BBEA397839BD4A6DC /* Shooter_DDProjectile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B0246116D6BB85682A79B0 /* Shooter_DDProjectile.cpp */; };
+		FBEDD4A9A12A41B843BADB3B /* Shooter_DD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 872343601D421B6EAECE289F /* Shooter_DD.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBAA95773AE03BAC267054CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EA998295E7572C561A7DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2ECEBA33C4DAB9BB173B276;
+			remoteInfo = Shooter_DD_Build;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E4841AB4578BB4EF66F8B7 /* Shooter_DD.uproject */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Shooter_DD.uproject; path = ../../Shooter_DD.uproject; sourceTree = SOURCE_ROOT; };
+		15554A7174E07DC81E5A03A3 /* Shooter_DDCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Shooter_DDCharacter.cpp; path = ../../Source/Shooter_DD/Shooter_DDCharacter.cpp; sourceTree = SOURCE_ROOT; };
+		27ABEC2311F75A0968AFA9ED /* Shooter_DDGameMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shooter_DDGameMode.h; path = ../../Source/Shooter_DD/Shooter_DDGameMode.h; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultEngine.ini; path = ../../Config/DefaultEngine.ini; sourceTree = SOURCE_ROOT; };
+		54326F9C81AD9A93B418EA91 /* Shooter_DD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Shooter_DD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultEditorPerProjectUserSettings.ini; path = ../../Config/DefaultEditorPerProjectUserSettings.ini; sourceTree = SOURCE_ROOT; };
+		5C7964D12FE5753A6A620E11 /* Shooter_DD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shooter_DD.h; path = ../../Source/Shooter_DD/Shooter_DD.h; sourceTree = SOURCE_ROOT; };
+		6A84D4D7FFA4C01110E8D60B /* Shooter_DDGameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Shooter_DDGameMode.cpp; path = ../../Source/Shooter_DD/Shooter_DDGameMode.cpp; sourceTree = SOURCE_ROOT; };
+		6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultInput.ini; path = ../../Config/DefaultInput.ini; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 /* Shooter_DDEditor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Shooter_DDEditor.Target.cs; path = ../../Source/Shooter_DDEditor.Target.cs; sourceTree = SOURCE_ROOT; };
+		872343601D421B6EAECE289F /* Shooter_DD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Shooter_DD.cpp; path = ../../Source/Shooter_DD/Shooter_DD.cpp; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* Shooter_DD.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Shooter_DD.Target.cs; path = ../../Source/Shooter_DD.Target.cs; sourceTree = SOURCE_ROOT; };
+		9B682F1471D72328033ABBDA /* Shooter_DDCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shooter_DDCharacter.h; path = ../../Source/Shooter_DD/Shooter_DDCharacter.h; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultEditor.ini; path = ../../Config/DefaultEditor.ini; sourceTree = SOURCE_ROOT; };
+		A9B0246116D6BB85682A79B0 /* Shooter_DDProjectile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Shooter_DDProjectile.cpp; path = ../../Source/Shooter_DD/Shooter_DDProjectile.cpp; sourceTree = SOURCE_ROOT; };
+		B24129E59A7C266DD2713465 /* Shooter_DDHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shooter_DDHUD.h; path = ../../Source/Shooter_DD/Shooter_DDHUD.h; sourceTree = SOURCE_ROOT; };
+		B498431CD1C050DD9A4D3BE9 /* Shooter_DDProjectile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shooter_DDProjectile.h; path = ../../Source/Shooter_DD/Shooter_DDProjectile.h; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultGame.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultGame.ini; path = ../../Config/DefaultGame.ini; sourceTree = SOURCE_ROOT; };
+		EFAB162CF25CF006557FB054 /* Shooter_DDHUD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Shooter_DDHUD.cpp; path = ../../Source/Shooter_DD/Shooter_DDHUD.cpp; sourceTree = SOURCE_ROOT; };
+		F4459D9634EB6C5320E617FC /* Shooter_DD.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = Shooter_DD.Build.cs; path = ../../Source/Shooter_DD/Shooter_DD.Build.cs; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		003732B1AE3DBD295AF71DE3 /* Shooter_DD */ = {
+			isa = PBXGroup;
+			children = (
+				F4459D9634EB6C5320E617FC /* Shooter_DD.Build.cs */,
+				872343601D421B6EAECE289F /* Shooter_DD.cpp */,
+				5C7964D12FE5753A6A620E11 /* Shooter_DD.h */,
+				15554A7174E07DC81E5A03A3 /* Shooter_DDCharacter.cpp */,
+				9B682F1471D72328033ABBDA /* Shooter_DDCharacter.h */,
+				6A84D4D7FFA4C01110E8D60B /* Shooter_DDGameMode.cpp */,
+				27ABEC2311F75A0968AFA9ED /* Shooter_DDGameMode.h */,
+				EFAB162CF25CF006557FB054 /* Shooter_DDHUD.cpp */,
+				B24129E59A7C266DD2713465 /* Shooter_DDHUD.h */,
+				A9B0246116D6BB85682A79B0 /* Shooter_DDProjectile.cpp */,
+				B498431CD1C050DD9A4D3BE9 /* Shooter_DDProjectile.h */,
+			);
+			name = Shooter_DD;
+			path = Source/Shooter_DD;
+			sourceTree = "<group>";
+		};
+		617CF1806D61AA52E44CC34E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				003732B1AE3DBD295AF71DE3 /* Shooter_DD */,
+				940AC694D607EE88F16DFF10 /* Shooter_DD.Target.cs */,
+				6EF1EB4E659A8BF798C986A9 /* Shooter_DDEditor.Target.cs */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A5AA4DD9ADA9F7D91ACFD017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54326F9C81AD9A93B418EA91 /* Shooter_DD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1A93D815BB5502C5009DD8A = {
+			isa = PBXGroup;
+			children = (
+				617CF1806D61AA52E44CC34E /* Source */,
+				C95D4C787BEFF6E26D6193B4 /* Config */,
+				10E4841AB4578BB4EF66F8B7 /* Shooter_DD.uproject */,
+				A5AA4DD9ADA9F7D91ACFD017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C95D4C787BEFF6E26D6193B4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEditorPerProjectUserSettings.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultEngine.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultGame.ini */,
+				6BB943E2C40AE476452D4EE3 /* DefaultInput.ini */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A2ECEBA33C4DAB9BB173B276 /* Shooter_DD_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/Simon/Documents/Unreal Projects/Shooter_DD/Shooter_DD.uproject\"";
+			buildConfigurationList = 52478CB0FA3182023A7596D0 /* Build configuration list for PBXLegacyTarget "Shooter_DD_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_4.14/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_4.14";
+			dependencies = (
+			);
+			name = Shooter_DD_Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = Shooter_DD_Build;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		269B44FE743E2DE3C004D54D /* Shooter_DD_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49770D9C5B81AE17FF94A3A /* Build configuration list for PBXNativeTarget "Shooter_DD_Index" */;
+			buildPhases = (
+				91A79AB043FCC9E12E36C0EC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shooter_DD_Index;
+			productName = Shooter_DD_Index;
+			productType = "com.apple.product-type.library.static";
+		};
+		C992C15D1FE3D8ED39731356 /* Shooter_DD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8355AE21E8BEC69035DEA9 /* Build configuration list for PBXNativeTarget "Shooter_DD" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738E41EB029537C6AB0FD2E1 /* PBXTargetDependency */,
+			);
+			name = Shooter_DD;
+			productName = Shooter_DD;
+			productReference = 54326F9C81AD9A93B418EA91 /* Shooter_DD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20EA998295E7572C561A7DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					C992C15D1FE3D8ED39731356 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 09AD267246CFB54D713FBB62 /* Build configuration list for PBXProject "Shooter_DD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1A93D815BB5502C5009DD8A;
+			productRefGroup = A5AA4DD9ADA9F7D91ACFD017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C992C15D1FE3D8ED39731356 /* Shooter_DD */,
+				A2ECEBA33C4DAB9BB173B276 /* Shooter_DD_Build */,
+				269B44FE743E2DE3C004D54D /* Shooter_DD_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A79AB043FCC9E12E36C0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEDD4A9A12A41B843BADB3B /* Shooter_DD.cpp in Sources */,
+				A70B35DECAA94D2DC534762A /* Shooter_DDCharacter.cpp in Sources */,
+				9A04C68AE445F24D07920080 /* Shooter_DDGameMode.cpp in Sources */,
+				034B285E79AAC9B22EBAD87B /* Shooter_DDHUD.cpp in Sources */,
+				E12E170BBEA397839BD4A6DC /* Shooter_DDProjectile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		738E41EB029537C6AB0FD2E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2ECEBA33C4DAB9BB173B276 /* Shooter_DD_Build */;
+			targetProxy = FBAA95773AE03BAC267054CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0205776A2C7C7E9301829DB3 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"USE_NEW_ASYNC_IO=0",
+					"ORIGINAL_FILE_NAME=UE4Editor-Shooter_DD.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SHOOTER_DD_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=0",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"INTERNATIONALIZATION_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/Epic Games/UE_4.14/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Shooter_DD ../../Source/Shooter_DD /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Async /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Math /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/Settings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay";
+				USE_HEADERMAP = NO;
+			};
+			name = "Development Editor";
+		};
+		1173B47B4A0DB9930FA87A6E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"USE_NEW_ASYNC_IO=0",
+					"ORIGINAL_FILE_NAME=UE4Editor-Shooter_DD.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SHOOTER_DD_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=0",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"INTERNATIONALIZATION_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/Epic Games/UE_4.14/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Shooter_DD ../../Source/Shooter_DD /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Async /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Math /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/Settings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		1BA0E95440FB5B6EE9612ED7 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = DebugGame;
+				UE_BUILD_TARGET_NAME = Shooter_DD;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		3BB6BCDA888D5169143DA5E5 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.14/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+		465ED263C76330BA9412C043 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/Mac";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/IOS/Shooter_DD-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/Mac/Shooter_DD-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Shooter_DD;
+				"PRODUCT_NAME[sdk=macosx*]" = Shooter_DD;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		5A0BA7EB4367B8E5047E7232 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/Mac";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/IOS/Shooter_DD-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/Mac/Shooter_DD-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Shooter_DD;
+				"PRODUCT_NAME[sdk=macosx*]" = Shooter_DD;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		5C00994CEDCE1385E61D842A /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"USE_NEW_ASYNC_IO=0",
+					"ORIGINAL_FILE_NAME=UE4Editor-Shooter_DD.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SHOOTER_DD_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=0",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"INTERNATIONALIZATION_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/Epic Games/UE_4.14/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Shooter_DD ../../Source/Shooter_DD /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Async /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Math /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/Settings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay";
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame Editor";
+		};
+		5EDD4449E4D3DCACB4EB1BD4 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/Mac";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/IOS/Shooter_DD-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/Mac/Shooter_DD-Mac-Shipping-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Shooter_DD;
+				"PRODUCT_NAME[sdk=macosx*]" = "Shooter_DD-Mac-Shipping";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		620E811B4EA9F1BAD2E46182 /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.14/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		67FCBED4405EB220ADC8F0F1 /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.14/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		81DCA0C848E148F2D825EFB3 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/Mac";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/IOS/Shooter_DD-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/Mac/Shooter_DD-Mac-DebugGame-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Shooter_DD;
+				"PRODUCT_NAME[sdk=macosx*]" = "Shooter_DD-Mac-DebugGame";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		8696097F603C702CDDE94294 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/Mac";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/IOS/Shooter_DD-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/Mac/Shooter_DD-Mac-Shipping-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Shooter_DD;
+				"PRODUCT_NAME[sdk=macosx*]" = "Shooter_DD-Mac-Shipping";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		94541DA04EB79DCAD68E01D1 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = Shooter_DDEditor;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+		A7563107C1572EC56092D6D7 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"USE_NEW_ASYNC_IO=0",
+					"ORIGINAL_FILE_NAME=UE4Editor-Shooter_DD.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SHOOTER_DD_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=0",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"INTERNATIONALIZATION_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/Epic Games/UE_4.14/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Shooter_DD ../../Source/Shooter_DD /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Async /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Math /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/Settings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay";
+				USE_HEADERMAP = NO;
+			};
+			name = Shipping;
+		};
+		AAD5D1A0CA5050FFD09CCD9C /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"WITH_PERFCOUNTERS=1",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"WITH_LOGGING_TO_MEMORY=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"USE_NEW_ASYNC_IO=0",
+					"ORIGINAL_FILE_NAME=UE4Editor-Shooter_DD.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SHOOTER_DD_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=0",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"FUNCTIONALTESTING_API=",
+					"AUTOMATIONCONTROLLER_API=",
+					"INTERNATIONALIZATION_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/Epic Games/UE_4.14/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/Shooter_DD ../../Source/Shooter_DD /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Async /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Math /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Core /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/CoreUObject /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Engine /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Json /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SlateCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/InputCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Slate /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Messaging /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RenderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/RHI /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/ShaderCore /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AssetRegistry /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/EngineSettings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SynthBenchmark /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Renderer /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/AIModule /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTags /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayTasks /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/DatabaseSupport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HardwareSurvey /Users/Shared/Epic Games/UE_4.14/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BspMode /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/DirectoryWatcher /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Documentation /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Projects /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/SandboxFile /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/EditorStyle /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/SourceControl /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEdMessages /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AIModule/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/Settings/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/GameplayDebugger /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/BlueprintGraph /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Online/HTTP /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/UnrealAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/FunctionalTesting /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController/Public/Interfaces /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/AutomationController /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization/Public/Serialization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Internationalization /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UserFeedback /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/CollectionManager /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/AddContentDialog /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Developer/MeshUtilities /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Classes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/Kismet /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/Epic Games/UE_4.14/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/Epic Games/UE_4.14/Engine/Source/Runtime/HeadMountedDisplay";
+				USE_HEADERMAP = NO;
+			};
+			name = DebugGame;
+		};
+		BEB4C1A0726369C4C01F2811 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/Shared/Epic Games/UE_4.14/Engine/Binaries/Mac";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+		CBB0F6B1D3E024752C0BF9F8 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = Shipping;
+				UE_BUILD_TARGET_NAME = Shooter_DD;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		D27F7308DDFAD91D7181F740 /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = DebugGame;
+				UE_BUILD_TARGET_NAME = Shooter_DDEditor;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		D8560FC97ED047F5DAFD2E67 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Binaries/Mac";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.14/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/IOS/Shooter_DD-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/Simon/Documents/Unreal Projects/Shooter_DD/Intermediate/Mac/Shooter_DD-Mac-DebugGame-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = Shooter_DD;
+				"PRODUCT_NAME[sdk=macosx*]" = "Shooter_DD-Mac-DebugGame";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		DD97D203D7351FED1DF1F66A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = Shooter_DD;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09AD267246CFB54D713FBB62 /* Build configuration list for PBXProject "Shooter_DD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD5D1A0CA5050FFD09CCD9C /* DebugGame */,
+				5C00994CEDCE1385E61D842A /* DebugGame Editor */,
+				1173B47B4A0DB9930FA87A6E /* Development */,
+				0205776A2C7C7E9301829DB3 /* Development Editor */,
+				A7563107C1572EC56092D6D7 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		52478CB0FA3182023A7596D0 /* Build configuration list for PBXLegacyTarget "Shooter_DD_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA0E95440FB5B6EE9612ED7 /* DebugGame */,
+				D27F7308DDFAD91D7181F740 /* DebugGame Editor */,
+				DD97D203D7351FED1DF1F66A /* Development */,
+				94541DA04EB79DCAD68E01D1 /* Development Editor */,
+				CBB0F6B1D3E024752C0BF9F8 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		AA8355AE21E8BEC69035DEA9 /* Build configuration list for PBXNativeTarget "Shooter_DD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DCA0C848E148F2D825EFB3 /* DebugGame */,
+				67FCBED4405EB220ADC8F0F1 /* DebugGame Editor */,
+				5A0BA7EB4367B8E5047E7232 /* Development */,
+				3BB6BCDA888D5169143DA5E5 /* Development Editor */,
+				5EDD4449E4D3DCACB4EB1BD4 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F49770D9C5B81AE17FF94A3A /* Build configuration list for PBXNativeTarget "Shooter_DD_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8560FC97ED047F5DAFD2E67 /* DebugGame */,
+				620E811B4EA9F1BAD2E46182 /* DebugGame Editor */,
+				465ED263C76330BA9412C043 /* Development */,
+				BEB4C1A0726369C4C01F2811 /* Development Editor */,
+				8696097F603C702CDDE94294 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20EA998295E7572C561A7DA1 /* Project object */;
+}

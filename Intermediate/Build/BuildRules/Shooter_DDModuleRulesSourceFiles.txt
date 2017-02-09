@@ -1,0 +1,3 @@
+/Users/Simon/Documents/Unreal Projects/Shooter_DD/Source/Shooter_DD/Shooter_DD.Build.cs
+/Users/Simon/Documents/Unreal Projects/Shooter_DD/Source/Shooter_DD.Target.cs
+/Users/Simon/Documents/Unreal Projects/Shooter_DD/Source/Shooter_DDEditor.Target.cs

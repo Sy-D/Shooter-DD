@@ -1,0 +1,9 @@
+{
+	"Changelist" : 3249277,
+	"CompatibleChangelist" : 3195953,
+	"BuildId" : "",
+	"Modules" : 
+	{
+		"Shooter_DD" : "UE4Editor-Shooter_DD.dylib"
+	}
+}
